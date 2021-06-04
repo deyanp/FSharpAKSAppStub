@@ -4,6 +4,7 @@ This project shows how to create a service using WebJobs SDK ready to be deploye
 
 Blog post: https://dev.to/deyanp/f-app-stub-for-aks-hosting-with-webjobs-but-without-azure-functions-fluff-43lj
 
+
 1. Create an Azure resource group with:
     1. Application Insights
     1. Event Hub Namespace, Event Hub, consumer group "test-cg"
