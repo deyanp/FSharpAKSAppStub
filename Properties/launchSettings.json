@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "LocalDev": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "APPINSIGHTS_INSTRUMENTATIONKEY": "TODO",
+        "WEBSITE_SITE_NAME": "xxx-yyy-evh",
+
+        "Logging__LogLevel__Default": "Information",
+        "Logging__LogLevel__Azure": "Warning",
+        "Logging__LogLevel__Microsoft.AspNetCore.Routing.EndpointMiddleware": "Warning",
+        "Logging__ApplicationInsights__LogLevel__Default": "Information",
+        "Logging__ApplicationInsights__LogLevel__Microsoft": "Warning",
+        "Logging__ApplicationInsights__LogLevel__Azure": "Warning",
+
+        "EventHubConnectionString": "TODO",
+
+        "AzureWebJobs.HandleEventHubMessage.Disabled": "false",
+        "AzureWebJobs.HandleQueueMessage.Disabled": "false",
+        "AzureWebJobs.HandleTimerEvent.Disabled": "false",
+
+        "StorageQueueConnectionString": "TODO"
+      },
+      "applicationUrl": "http://localhost:3000/"
+    }
+  }
+}
