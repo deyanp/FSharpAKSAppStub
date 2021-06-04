@@ -1,5 +1,7 @@
 # FSharpAKSAppStub
 
+This project shows how to create a service using WebJobs SDK ready to be deployed in AKS, with Application Insights integration, console logging, etc.
+
 1. Create an Azure resource group with:
     1. Application Insights
     1. Event Hub Namespace, Event Hub, consumer group "test-cg"
